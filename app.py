@@ -4,7 +4,7 @@ import os
 
 app = Flask(__name__)
 
-RIOT_API_KEY = "RGAPI-dce6597d-046f-44f3-9fe7-04e46c1ec52f"  # reemplaza con tu API Key
+RIOT_API_KEY = "RGAPI-583a3e5a-baee-47cb-93f0-69536893abd8"  # reemplaza con tu API Key
 REGION = "las1"  # Latinoamérica Sur
 
 @app.route("/flexrank/<summoner_name>")
